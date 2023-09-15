@@ -89,6 +89,12 @@
             <version>3.0.0</version>
             <configuration>
                 <mainClass>com.mygroup.MyAppMain</mainClass>
+				<systemProperties>
+                    <systemProperty>
+                        <key>log4j2.configurationFile</key>
+                        <value>file:src/resources/log4j2.xml</value>
+                    </systemProperty>
+                </systemProperties>
             </configuration>
         </plugin>
     </plugins>

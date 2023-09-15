@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger;
 
 public class MyAppMain
 {
-	private static Logger logger = LogManager.getLogger(BpmInstallationHelper.class);
+	private static Logger logger = LogManager.getLogger(MyAppMain.class);
     public static void main( String[] args )
     {
 		logger.info("---------- started -----------");
